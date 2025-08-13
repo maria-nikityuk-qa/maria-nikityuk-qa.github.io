@@ -1,0 +1,131 @@
+body {
+  font-family: "Open Sans";
+  background-color: #efddeb;
+  color: #24292f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.header__avatar {
+  border-radius: 70%;
+  width: 290px;
+  height: 31s0px;
+  float: center;
+}
+
+.header__title {
+  margin: 20px 0 10px 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: "Open Sans";
+}
+
+.header__subtitle {
+  color: #24292f;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 2;
+  
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.links__header {
+  font-family: "Open Sans";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  background-color: #fff;
+  list-style-type: none;
+  border: 1px solid hsla(210, 18%, 87%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #39112f;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #5f3555;
+  border: 2px solid rgba(27, 31, 36, 0.15);
+  border-radius: 20px;
+
+  font-size: 20px;
+  line-height: 1.4;
+
+  color: #ece9eb;
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #39112f;
+  color: #fff;
+  transform: translate(0,-3px);
+  box-shadow: 0 20px 40px 0 rgba(27, 31, 36, 0.1);
+  position: relative;
+    top: 7px;
+}
